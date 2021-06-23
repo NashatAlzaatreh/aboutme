@@ -5,7 +5,7 @@ let score =0;
 thename=prompt("what is your name?");
 console.log(thename );
 alert("wlcome "+ thename +", now we will start a guess game to know more about me, have fun." )
-
+function fun1 () {
 let q1=prompt("Am I 26 years old? yes or no")
 
 switch ( q1.toLowerCase()) {
@@ -23,7 +23,10 @@ switch ( q1.toLowerCase()) {
 
 
 }
+}
+fun1();
 
+function fun2 (){
 let q2=prompt("Am I a Software engineer? yes or no")
 
 switch ( q2.toLowerCase()) {
@@ -38,9 +41,11 @@ switch ( q2.toLowerCase()) {
         score++;
         // console.log("That is true, I am civil engineer, and I will be a great software developer")
         break;
-
 }
+}
+fun2();
 
+function fun3(){
 let q3=prompt("Am I a good chess player? yes or no")
 
 switch ( q3.toLowerCase()) {
@@ -55,10 +60,11 @@ switch ( q3.toLowerCase()) {
         alert("That is false, and if you wants we can play a game")
         // console.log("That is false, and if you wants we can play a game")
         break;
-
 }
+}
+fun3();
 
-
+function fun4(){
 let q4=prompt("Am I enjoying software development? yes or no")
 
 switch ( q4.toLowerCase()) {
@@ -73,11 +79,12 @@ switch ( q4.toLowerCase()) {
         alert("That is false, I said to you I will be a great software developer  ")
         // console.log("That is false, I said to you I will be a great software developer")
         break;
-
 }
+}
+fun4();
 
 
-
+function fun5(){
 let q5=prompt("Am I hate team work? yes or no")
 
 switch ( q5.toLowerCase()) {
@@ -92,8 +99,10 @@ switch ( q5.toLowerCase()) {
         score++;
         // console.log("That is true, I am a good team member, and I am a special team leader")
         break;
-
 }
+}
+fun5();
+function fun6(){
 alert("Now you have to guess a number and you have four opportunities to get the correct answer, and I will till you in each one if your guess was high or low or correct")
 let q6= prompt("what is the year I was borned in?","hint: the answer is between 1990 and 1999");
 for (let i = 0 ; i <= 3 ; i++ ) {
@@ -118,7 +127,10 @@ for (let i = 0 ; i <= 3 ; i++ ) {
        
 
 }
+}
+fun6();
 
+function fun7(){
 alert("a second guess game: you have to guess a number from a groub of numbers between 0 and 30, the group contain seven number you should guess one of them , and you have six attempts to get the correct answer")
 
 let thenum = [2, 7, 14, 16, 17, 22, 29];
@@ -158,6 +170,8 @@ for (let i = 0 ; i <= 5 ; i++ )
         
 
 }
+}
+fun7();
 
 alert("Thank you " + thename + " for your time, you can read more about me in this page, your score is " + score + "  out of 7, nice to meet you.")
 
