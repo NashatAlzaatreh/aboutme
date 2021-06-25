@@ -102,6 +102,7 @@ switch ( q5.toLowerCase()) {
 }
 }
 fun5();
+
 function fun6(){
 alert("Now you have to guess a number and you have four opportunities to get the correct answer, and I will till you in each one if your guess was high or low or correct")
 let q6= prompt("what is the year I was borned in?","hint: the answer is between 1990 and 1999");

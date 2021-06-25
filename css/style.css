@@ -1,8 +1,16 @@
 nav ul li {
     display: inline-block;
-    margin: 20px;
-    font-size: larger;
+    margin: 11px;
+    font-size: 20px;
+    margin-left: 70px;
     
+}
+header {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    
+
 }
  
 nav  { 
@@ -13,25 +21,33 @@ nav  {
  nav ul li a { 
     text-decoration: none;
     color: rgb(255, 255, 255);
+    
  }
 
  h1 {
-     font-size: xx-large;
+     font-size:55px;
      margin: 50px;
      color: rgb(255, 255, 255);
+     margin-left: 70px;
+     font-family: 'Viaoda Libre', cursive;
+     
  }
 
  h2 {
-     font-size: x-large;
+     font-size: 25px;
      margin: 50px;
      color: rgb(202, 99, 3);
+     margin-left: 70px;
+     font-family: 'Kirang Haerang', cursive;
+     padding-right: 50%;
  }
 
  p {
-     font-size: large;
+     font-size: 20px;
      margin: 50px;
      padding-right: 50%;
      color: rgb(255, 255, 255);
+     margin-left: 70px;
  }
  article h2 {
     color: rgb(202, 99, 3);
@@ -43,25 +59,60 @@ nav  {
 }
 article ol li{
     color: rgb(255, 255, 255); 
-    margin-left: 50px;
-    margin-bottom: 7px;
-    font-size: larger;
+    margin-left: 95px;
+    margin-bottom: 11px;
+    font-size: 20px;
+    list-style:disc;
+    font-family: 'Gloria Hallelujah', cursive;
  }
  article ul li {
     color: rgb(255, 255, 255); 
-    margin-left: 50px;
-    margin-bottom: 7px;
-    font-size: larger;
+    margin-left: 95px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    list-style-type: decimal;
+
  }
 
 img{
-    float: right;
+    
+    position: fixed;
+    right: 0%;
+    bottom: 0px;
     
     
 }
+
+
 
 footer{
     background-color: gray;
     padding: 5px;
+    font-size: larger;
 }
+
+footer div {
+    margin-left: 70px;
+}
+.fa-linkedin {
+    
+    color: #0c577a;
+  }
+  .fa {
+    padding: 0px;
+    font-size: 5px;
+    width: 10px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 10px;
+    border-color: white;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  .fa-facebook {
+    
+    color:rgb(5, 5, 163);
+  }
 
