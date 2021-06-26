@@ -62,7 +62,7 @@ article ol li{
     margin-left: 95px;
     margin-bottom: 11px;
     font-size: 20px;
-    list-style:disc;
+    list-style-type: decimal;
     font-family: 'Gloria Hallelujah', cursive;
  }
  article ul li {
@@ -70,8 +70,7 @@ article ol li{
     margin-left: 95px;
     margin-bottom: 20px;
     font-size: 20px;
-    list-style-type: decimal;
-
+    list-style:disc; 
  }
 
 img{
